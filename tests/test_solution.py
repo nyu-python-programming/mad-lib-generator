@@ -47,7 +47,7 @@ class Tests:
     expected = '''
     'Twas arugula, and the slithy toves
     Did arugula and gimble in the wabe;
-    All arugula were the arugula,
+    All arugula were the borogoves,
     And the mome arugula outgrabe.
 
     "Beware the arugula, my son!

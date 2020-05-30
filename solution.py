@@ -66,7 +66,7 @@ def generate():
   poem = '''
     'Twas {adjective_1}, and the slithy toves
     Did {verb_1} and gimble in the wabe;
-    All {adjective_2} were the {plural_noun_1},
+    All {adjective_2} were the borogoves,
     And the mome {plural_noun_1} outgrabe.
 
     "Beware the {proper_noun_1}, my son!
