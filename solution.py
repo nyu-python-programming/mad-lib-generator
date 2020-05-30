@@ -1,6 +1,6 @@
 """
 Functions used by the Mad Lib generator.
-Running this file will not generate the Mad Lib... run the main.py file instead.
+Running this file will **not** generate the Mad Lib... run the main.py file instead.
 Complete each function in this file such that when the main.py file is run, a Mad Lib is generated.
 """
 
