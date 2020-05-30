@@ -1,5 +1,6 @@
 
 from solution import *
+import builtins
 
 class Tests:
 
@@ -44,15 +45,15 @@ class Tests:
     captured = capsys.readouterr()  # capture print output
     actual = captured.out.lower().strip()
     expected = '''
-    ’Twas arugula, and the slithy toves
+    'Twas arugula, and the slithy toves
     Did arugula and gimble in the wabe;
     All arugula were the arugula,
     And the mome arugula outgrabe.
 
-    “Beware the arugula, my son!
+    "Beware the arugula, my son!
     The jaws that arugula, the arugula that catch!
     Beware the Jubjub bird, and shun
-    The frumious arugula!”
-  ''' .lower().strip()
+    The frumious arugula!
+  '''.lower().strip()
   
     assert actual == expected

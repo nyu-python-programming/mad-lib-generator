@@ -64,15 +64,15 @@ def generate():
   # feel free to modify the given poem code and add any additional code as necessary
 
   poem = '''
-    ’Twas {adjective_1}, and the slithy toves
+    'Twas {adjective_1}, and the slithy toves
     Did {verb_1} and gimble in the wabe;
     All {adjective_2} were the {plural_noun_1},
     And the mome {plural_noun_1} outgrabe.
 
-    “Beware the {proper_noun_1}, my son!
+    "Beware the {proper_noun_1}, my son!
     The jaws that {verb_2}, the {plural_noun_2} that catch!
     Beware the Jubjub bird, and shun
-    The frumious {proper_noun_2}!”
+    The frumious {proper_noun_2}!
   '''
 
   # don't modify the print statement below... leave it as the last line in this function
