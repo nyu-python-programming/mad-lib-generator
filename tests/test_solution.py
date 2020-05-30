@@ -1,6 +1,5 @@
 
 from solution import *
-import builtins
 
 class Tests:
 
