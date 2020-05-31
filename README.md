@@ -6,13 +6,21 @@ The given code in this repository is the outline of a [Mad Lib](https://en.wikip
 
 First, clone this repository to your local computer, using Visual Studio Code's cloning feature.
 
+Helpful video:
+
+- [cloning a code repository from GitHub to your local machine](https://www.youtube.com/watch?v=axcny0o1NYo).
+
 ## Set up Visual Studio Code
 
-Once cloned, set Visual Studio Code to be suitable for Python development:
+Once cloned, set Visual Studio Code to be suitable for Python development using the "command palette":
 
-- set the interpreter to a Python 3.x interpreter, such as that by `Anaconda`.
+- set the interpreter to a Python 3.x interpreter, such as that by [`Anaconda`](https://www.anaconda.com/).
 - set the linter to by `pylint`.
 - set the test framework to be `pytest`.
+
+Helpful video:
+
+- [Setting up Visual Studio Code for Python development](https://www.youtube.com/watch?v=xsXMzyK1M4I)
 
 ## Modify the code
 
@@ -30,4 +38,4 @@ Running the program should ask for the user to input several words (adjectives, 
 
 ### Verify that the tests pass
 
-Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You shoudl not edit any files in the `test` directory.
+Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You should not edit any files in the `test` directory.
