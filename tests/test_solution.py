@@ -53,6 +53,9 @@ class Tests:
     The jaws that arugula, the arugula that catch!
     Beware the Jubjub bird, and shun
     The frumious arugula!
-  '''.lower().strip()
+    '''.lower().strip()
+    # remove multiple whitespaces
+    actual = ' '.join(actual.split())
+    expected = ' '.join(expected.split())
   
     assert actual == expected
