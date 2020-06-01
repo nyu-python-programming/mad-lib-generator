@@ -55,9 +55,7 @@ def generate():
   - 2 plural nouns
   - 2 proper nouns (names of a place, person, or event)
 
-  Then plug these into the Jaberwocky poem according to the given template.
-
-    :returns: the Jaberwocky poem with the user's words inserted
+  Then plug these into the Jaberwocky poem according to the given template and print it out.
   """
 
   # write your code for this function below this line...
