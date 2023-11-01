@@ -4,64 +4,69 @@ Running this file will **not** generate the Mad Lib... run the main.py file inst
 Complete each function in this file such that when the main.py file is run, a Mad Lib is generated.
 """
 
-def get_adj():
-  """
-  Ask the user to enter an adjective.
-    :returns: the text entered by the user
-  """
-  # write your code for this function below this line
 
-  # don't modify the return statement below... 
-  return word
+def get_adj():
+    """
+    Ask the user to enter an adjective.
+      :returns: the text entered by the user
+    """
+    # write your code for this function below this line
+
+    # don't modify the return statement below...
+    return word
+
 
 def get_verb():
-  """
-  Ask the user to enter a verb.
-    :returns: the text entered by the user
-  """
-  # write your code for this function below this line
+    """
+    Ask the user to enter a verb.
+      :returns: the text entered by the user
+    """
+    # write your code for this function below this line
 
-  # don't modify the return statement below... leave it as the last line in this function
-  return word
+    # don't modify the return statement below... leave it as the last line in this function
+    return word
+
 
 def get_plural_noun():
-  """
-  Ask the user to enter a plural noun.
-    :returns: the text entered by the user
-  """
-  # write your code for this function below this line
+    """
+    Ask the user to enter a plural noun.
+      :returns: the text entered by the user
+    """
+    # write your code for this function below this line
 
-  # don't modify the return statement below... leave it as the last line in this function
-  return word
+    # don't modify the return statement below... leave it as the last line in this function
+    return word
+
 
 def get_proper_noun():
-  """
-  Ask the user to enter a proper noun (the name of a location, person, or event).
-    :returns: the text entered by the user
-  """
-  # write your code for this function below this line
+    """
+    Ask the user to enter a proper noun (the name of a location, person, or event).
+      :returns: the text entered by the user
+    """
+    # write your code for this function below this line
 
-  # don't modify the return statement below... leave it as the last line in this function
-  return word
+    # don't modify the return statement below... leave it as the last line in this function
+    return word
+
 
 def generate():
-  """
-  Generates a variation of the Jabberwocky poem in a "Mad Lib" style.
-  You can view the text of the original Jaabberwocky poem here: https://en.wikipedia.org/wiki/Jabberwocky
+    """
+    Generates a variation of the Jabberwocky poem in a "Mad Lib" style.
+    You can view the text of the original Jaabberwocky poem here: https://en.wikipedia.org/wiki/Jabberwocky
 
-  Uses the functions defined in this file to ask the user for...
-  - 2 adjectives
-  - 2 verbs
-  - 2 plural nouns
-  - 2 proper nouns (names of a place, person, or event)
+    Uses the functions defined in this file to ask the user for...
+    - 2 adjectives
+    - 2 verbs
+    - 2 plural nouns
+    - 2 proper nouns (names of a place, person, or event)
 
-  Then plug these into the Jaberwocky poem according to the given template and print it out.
-  """
+    Then plug these into the Jaberwocky poem according to the given template and print it out.
+    """
 
-  # write your code for this function below this line...
-  # feel free to modify the given poem code and add any additional code as necessary
+    # write your code for this function below this line...
+    # feel free to modify the given poem code and add any additional code as necessary
 
-  poem = '''
+    poem = """
     'Twas {adjective_1}, and the slithy toves
     Did {verb_1} and gimble in the wabe;
     All {adjective_2} were the borogoves,
@@ -71,7 +76,7 @@ def generate():
     The jaws that {verb_2}, the {plural_noun_2} that catch!
     Beware the Jubjub bird, and shun
     The frumious {proper_noun_2}!
-  '''
+  """
 
-  # don't modify the print statement below... leave it as the last line in this function
-  print(poem)
+    # don't modify the print statement below... leave it as the last line in this function
+    print(poem)
